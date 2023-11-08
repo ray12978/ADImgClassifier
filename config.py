@@ -14,31 +14,9 @@ pretrained_yolo = True
 
 
 # hyperparameter
-xlarge_batch = 2
-large_batch = 32
-base_batch = 64
-yolo_batch = 16
-large_yolo_batch = 8
-
-# train_batch = xlarge_batch
-# valid_batch = xlarge_batch
-# test_batch = xlarge_batch
-
-# yolo config
-train_batch = yolo_batch
-valid_batch = 8
-test_batch = 8
-
-# train_batch = large_yolo_batch
-# valid_batch = large_yolo_batch
-# test_batch = large_yolo_batch
-
-
-# general config
-# train_batch = base_batch
-# train_batch = large_batch
-# valid_batch = 24
-# test_batch = 16
+train_batch = 64
+valid_batch = 24
+test_batch = 16
 
 
 first_lr = 1e-6
@@ -170,18 +148,7 @@ all_model = [
     *transformers_model_xlarge
 ]
 
-# model_names = base_transformers_model
-# model_names = transformers_model_large
-# model_names = transformers_model_xlarge
-
-
-model_names = ['resnet101',
-               'microsoft/beit-base-patch16-224-pt22k-ft22k',
-               'hf-hub:timm/beitv2_base_patch16_224.in1k_ft_in22k_in1k',
-               'yolov8m']
-# model_names = ['microsoft/beit-base-patch16-224-pt22k-ft22k']
-# model_names = ['hf-hub:timm/beitv2_base_patch16_224.in1k_ft_in22k_in1k']
-# model_names = yoloc_model
+model_names = base_transformers_model
 
 
 # hyper parameters dict

@@ -8,7 +8,7 @@ import os
 is_cuda = torch.cuda.is_available()
 model_name = 'yolov7'  # 模型名稱
 model_path = 'Results/transformer_model/YOLO/yolov7/differential.pt'  # 模型權重路徑
-detect_path = r'C:\Users\ray93978\Data\Islab\Drive\Dataset\FB-Ad\multi-task\object detection\aaa'  # 主資料夾路徑
+detect_path = 'object detection/data'  # 主資料夾路徑
 image_path = os.path.join(detect_path, 'images')  # 圖片資料夾路徑
 label_path = os.path.join(detect_path, 'labels')  # 標籤輸出資料夾路徑
 
