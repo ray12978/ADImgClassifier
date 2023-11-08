@@ -1,0 +1,19 @@
+{
+  "version": "4.6.0",
+  "flags": {
+    "教學": false,
+    "產品": false,
+    "促銷": false,
+    "介紹": false,
+    "節慶": false,
+    "房地產": false,
+    "新成屋": false,
+    "展演": false,
+    "其它": false
+  },
+  "shapes": [],
+  "imagePath": "",
+  "imageData": null,
+  "imageHeight": 0,
+  "imageWidth": 0
+}
